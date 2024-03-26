@@ -8,7 +8,7 @@ export default function SignIn() {
   const [formData, setformData] = useState({});
   const {loading, error:errorMessage} = useSelector(state=>state.user)
   const dispatch=useDispatch();
- const navigate = useNavigate();
+  const navigate = useNavigate();
   const handlerChage = (e) => {
     setformData({ ...formData, [e.target.id]: e.target.value.trim() });
   };

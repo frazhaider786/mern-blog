@@ -7,7 +7,7 @@ export default function CallToAction() {
         <h2 className="text-2xl">Want to learn more about javascript?</h2>
         <p className="text-gray-500 my-2">Check these resource with 100 JavaScript Projects</p>
         <Button gradientDuoTone="purpleToPink" className="rounded-tl-xl rounded-bl-none">
-          <a href="https://www.100jsprojects.com" target="_blank" rel="noopener norefferrer">100 Javascript Projects</a>
+          <a href="https://www.100jsprojectse.com" target="_blank" rel="noopener norefferrer">100 Javascript Projects</a>
         </Button>
       </div>
       <div className="p-7 flex-1">
